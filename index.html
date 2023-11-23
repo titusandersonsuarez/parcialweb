@@ -6,21 +6,21 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body >
 
   <header>
     <h1>Muebles Ebenecer</h1>
     <nav class="nav nav-pills nav-fill">
-      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-      <a class="nav-link" href="#"> Productos</a>
-      <a class="nav-link" href="#">Servicios</a>
+      <a class="nav-link active" aria-current="page" href="index.html"><img src="imagenes/house.png" alt="home">Inicio</a>
+      <a class="nav-link" href="#"><img src="imagenes/table.png" alt="productos"> Productos</a>
+      <a class="nav-link" href="#"><img src="imagenes/handcraft.png" alt="Servicios">Servicios</a>
       <a class="nav-link" href="#"><img src="imagenes/communicate.png" alt="contact">Contacto</a>
-      <a class="nav-link"><img src="imagenes/user.png" alt="Login" width="40px"></a>
+      <a class="nav-link"><img src="imagenes/user.png" alt="Login" width="40px">iniciar seccion</a>
     </nav>
     
   </header>
 
-  <main>
+  <main style="margin: 60px;">
     <script>
       var carousel = new bootstrap.Carousel('#carouselExampleDark');
     </script>
@@ -34,25 +34,25 @@
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="imagenes/comedor1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-item active" data-bs-interval="10000" style="max-width: 500px;">
+              <img src="imagenes/comedor1.jpeg"  class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>comedor 1</h5>
+                <p>tenemos gran variedad de colores</p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img src="imagenes/comedor2.jpeg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>comedor 2</h5>
+                <p>tenemos gran variedad de colores</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="imagenes/comedor1.jpeg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5>comedor 3</h5>
+                <p>gran variedad de estilos.</p>
               </div>
             </div>
           </div>
@@ -66,11 +66,14 @@
           </button>
         </div>
       </section>
-        <section class="introduccion">
-          <h2>Sobre Muebles Ebenecer</h2>
+        <section class="introduccion" >
+          <div class="container text-center">
+            <h2>Sobre Muebles Ebenecer</h2>
           <p>
-            Muebles Ebenecer es una empresa dedicada a la venta de comedores de alta calidad. Contamos con una amplia variedad de modelos para que puedas encontrar el que mejor se adapte a tus necesidades.
+            Muebles Ebenecer es una empresa dedicada a la venta de comedores de alta calidad.
+            Contamos con una amplia variedad de modelos para que puedas encontrar el que mejor se adapte a tus necesidades.
           </p>
+          </div>
         </section>
       
         <section class="productos">
