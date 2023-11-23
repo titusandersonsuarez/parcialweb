@@ -6,11 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Login - SB Admin</title>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
-    <body class="bg-primary">
+    <header>
+        <h1>Muebles Ebenecer</h1>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-link active" aria-current="page" href="index.html"><img src="imagenes/house.png" alt="home">Inicio</a>
+            <a class="nav-link" href="#"><img src="imagenes/table.png" alt="productos"> Productos</a>
+            <a class="nav-link" href="#"><img src="imagenes/handcraft.png" alt="Servicios">Servicios</a>
+            <a class="nav-link" href="#"><img src="imagenes/communicate.png" alt="contact">Contacto</a>
+            <a class="nav-link" href="carrito.html"><img src="imagenes/carrito.png" alt="carrito" style="width: 60px; height: 60px;">Compras</a>
+            <a class="nav-link" href="login.html"><img src="imagenes/user.png" alt="Login" width="40px">iniciar seccion</a>
+        </nav>
+        
+      </header>
+    <body class="bg-info">
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -34,23 +47,19 @@
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="password.html">Forgot Password?</a>
-                                                <a class="btn btn-primary" href="index.html">Login</a>
+                                                <a class="small" href="password.html">Olvidaste Tu Contraseña?</a>
+                                                <a class="btn btn-primary" href="registrar.html">Sign Up</a>
                                             </div>
                                         </form>
-                                    </div>
-                                    <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.html">Need an account? Sign up!</a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </main>
-            </div>
-            <div id="layoutAuthentication_footer">
+                </div>
                 
-                <footer class="py-4 bg-light mt-auto">
+                <footer class="py-4 bg-light fixed-bottom">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted">Copyright &copy; Your Website 2023</div>
@@ -62,7 +71,7 @@
                         </div>
                     </div>
                 </footer>
-            </div>
+            
         </div>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>

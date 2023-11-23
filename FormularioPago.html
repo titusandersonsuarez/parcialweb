@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       </head>
+       <header>
+        <h1>Muebles Ebenecer</h1>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-link active" aria-current="page" href="index.html"><img src="imagenes/house.png" alt="home">Inicio</a>
+            <a class="nav-link" href="#"><img src="imagenes/table.png" alt="productos"> Productos</a>
+            <a class="nav-link" href="#"><img src="imagenes/handcraft.png" alt="Servicios">Servicios</a>
+            <a class="nav-link" href="#"><img src="imagenes/communicate.png" alt="contact">Contacto</a>
+            <a class="nav-link" href="carrito.html"><img src="imagenes/carrito.png" alt="carrito" style="width: 60px; height: 60px;">Compras</a>
+            <a class="nav-link" href="login.html"><img src="imagenes/user.png" alt="Login" width="40px">iniciar seccion</a>
+        </nav>
+        
+      </header>
+    <body class="main-layout">
+
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Pago con tarjeta</h4>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="cardholderName" class="form-label">Nombre del titular de la tarjeta</label>
+                                    <input type="text" class="form-control" id="cardholderName" placeholder="Nombre del titular de la tarjeta" required pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardNumber" class="form-label">Número de tarjeta (16 dígitos)</label>
+                                    <input type="text" class="form-control" id="cardNumber" placeholder="Número de tarjeta" required pattern="[0-9]{16}">
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="expiryDate" class="form-label">Fecha de expiración (MM/AA)</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/AA" required pattern="(0[1-9]|1[0-2])\/[0-9]{2}">
+                                        
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="cvv" class="form-label">CVV (3 dígitos)</label>
+                                        <input type="text" class="form-control" id="cvv" placeholder="CVV" required pattern="[0-9]{3}">
+                                        
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="amount" class="form-label">Monto a pagar</label>
+                                    <input type="text" class="form-control" id="amount" placeholder="Monto a pagar" required pattern="[0-9]+(\.[0-9]{1,2})?">
+                                    
+                                </div>
+                                <div class="d-grid text-center">
+                                    <button type="submit" class="btn btn-primary mb-2">Pagar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
